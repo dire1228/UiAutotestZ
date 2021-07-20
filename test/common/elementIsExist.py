@@ -3,12 +3,16 @@
 from selenium.webdriver.common.by import By
 from utils.logConfig import Log
 
-class ElementAction(object):
+"""判断元素是否存在"""
+
+
+class ElementIsExist(object):
 
     def __init__(self):
         self.log = Log().get_log()
 
     """判断一个元素是否存在"""
+
     def element_is_exist(self, driver, seletor, by=By.XPATH):
         flag = True
         try:
@@ -21,6 +25,7 @@ class ElementAction(object):
             return flag
 
     """判断一组元素是否存在"""
+
     def elements_is_exist(self, driver, seletor, by=By.XPATH):
         flag = True
         try:
@@ -32,7 +37,7 @@ class ElementAction(object):
             self.log.debug("元素是否存在：" + str(flag))
             return flag
 
-if __name__ == '__main__':
-    e = ElementAction()
-    e.element_is_exist(1, 2, 3)
 
+if __name__ == '__main__':
+    e = ElementIsExist()
+    e.element_is_exist(1, 2, 3)

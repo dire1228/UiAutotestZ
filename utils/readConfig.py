@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
-import logging
+from utils.logConfig import Log
 
 
 class ReadConfig(object):
@@ -9,15 +9,20 @@ class ReadConfig(object):
     """
 
     def __init__(self):
-        pass
+        self.log = Log().get_log()
 
-    @staticmethod
-    def read_json(json_file):
+    def read_json(self, json_file):
         """读取json文件"""
         try:
             with open(json_file) as f:
                 data = json.load(f)
+                self.log.debug("json文件：" + str(data))
                 return data
         except Exception as e:
-            print(e)
-            print("文件不存在或者不是json文件")
+            self.log.error("报错了：" + str(e))
+            self.log.error("文件不存在或者不是json文件")
+
+
+if __name__ == '__main__':
+    read = ReadConfig()
+    read.read_json("../config/base_data.json1")

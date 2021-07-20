@@ -8,7 +8,6 @@ import os
 
 class Log:
 
-
     def __init__(self):
         self.log_colors_config = {
             'DEBUG': 'white',  # cyan white
@@ -32,7 +31,8 @@ class Log:
             datefmt='%Y-%m-%d  %H:%M:%S'
         )
         console_formatter = colorlog.ColoredFormatter(
-            fmt='%(log_color)s[%(asctime)s.%(msecs)03d] %(filename)s -> %(funcName)s line:%(lineno)d [%(levelname)s] : %(message)s',
+            fmt='%(log_color)s[%(asctime)s.%(msecs)03d] %(filename)s -> %(funcName)s line:%(lineno)d [%(levelname)s] '
+                ': %(message)s',
             datefmt='%Y-%m-%d  %H:%M:%S',
             log_colors=self.log_colors_config
         )
@@ -52,9 +52,7 @@ class Log:
         self.console_handler.close()
         self.file_handler.close()
 
-
-
-    def log(self):
+    def get_log(self):
         """获取log"""
         return self.logger
 
@@ -64,10 +62,11 @@ class Log:
         self.file_handler.close()
 
 
-if __name__ == '__main__':
-    a = Log()
-    a.log().debug("debug log")
-    a.log().info("info log")
-    a.log().warning("warning log")
-    a.log().critical("critical log")
+# if __name__ == '__main__':
+    # a = Log().get_log()
+    # a.log().debug("debug log")
+    # a.log().info("info log")
+    # a.log().warning("warning log")
+    # a.log().critical("critical log")
     # a.close_handle()
+    # a.debug("cccc")
