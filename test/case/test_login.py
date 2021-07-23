@@ -12,7 +12,7 @@ class TestLogin:
         yield
         self.login.quit_driver()
 
-    def test_login(self):
+    def test_login(self, fixture_yield):
         """登录测试"""
         self.login.login()
 
