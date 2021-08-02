@@ -1,0 +1,33 @@
+[2021-08-02  19:39:15.012] readConfig.py -> read_json line:23 [ERROR] : 报错了：[Errno 2] No such file or directory: '../config/base_data.json1'
+[2021-08-02  19:39:15.013] readConfig.py -> read_json line:24 [ERROR] : 文件不存在或者不是json文件
+[2021-08-02  19:40:42.226] basePage.py -> __init__ line:56 [DEBUG] : prefs<selenium.webdriver.chrome.options.Options object at 0x000002456804CF40>
+[2021-08-02  19:40:43.275] basePage.py -> __init__ line:59 [DEBUG] : false driverFlag：True
+[2021-08-02  19:40:43.276] basePage.py -> __init__ line:60 [DEBUG] : 初始化driver完毕：<selenium.webdriver.chrome.webdriver.WebDriver (session="ddf0f2148356f2469bcfe0f24e041f4d")>
+[2021-08-02  19:40:44.881] readConfig.py -> read_json line:19 [DEBUG] : json文件：{'base_url': 'https://mgt.oilchem.net/login/login.htm', 'user_name': 'zhengsheng', 'password': '123456'}
+[2021-08-02  19:40:44.881] readConfig.py -> read_json line:19 [DEBUG] : json文件：{'base_url': 'https://mgt.oilchem.net/login/login.htm', 'user_name': 'zhengsheng', 'password': '123456'}
+[2021-08-02  19:41:41.921] readConfig.py -> read_json line:25 [ERROR] : 报错了：[Errno 2] No such file or directory: 'F:\\PythonProject\\UiAutotest\\utils/../../config/base_data.json'
+[2021-08-02  19:41:41.921] readConfig.py -> read_json line:25 [ERROR] : 报错了：[Errno 2] No such file or directory: 'F:\\PythonProject\\UiAutotest\\utils/../../config/base_data.json'
+[2021-08-02  19:41:41.922] readConfig.py -> read_json line:26 [ERROR] : 文件不存在或者不是json文件
+[2021-08-02  19:41:41.922] readConfig.py -> read_json line:26 [ERROR] : 文件不存在或者不是json文件
+[2021-08-02  19:42:23.268] readConfig.py -> read_json line:19 [DEBUG] : json文件：{'base_url': 'https://mgt.oilchem.net/login/login.htm', 'user_name': 'zhengsheng', 'password': '123456'}
+[2021-08-02  19:42:43.581] readConfig.py -> read_json line:19 [DEBUG] : json文件：{'base_url': 'https://mgt.oilchem.net/login/login.htm', 'user_name': 'zhengsheng', 'password': '123456'}
+[2021-08-02  19:47:01.171] basePage.py -> __init__ line:56 [DEBUG] : prefs<selenium.webdriver.chrome.options.Options object at 0x000001565518AF40>
+[2021-08-02  19:47:02.247] basePage.py -> __init__ line:59 [DEBUG] : false driverFlag：True
+[2021-08-02  19:47:02.247] basePage.py -> __init__ line:60 [DEBUG] : 初始化driver完毕：<selenium.webdriver.chrome.webdriver.WebDriver (session="16ca55db8e892563e8743a8e31d69d89")>
+[2021-08-02  19:47:04.086] readConfig.py -> read_json line:19 [DEBUG] : json文件：{'base_url': 'https://mgt.oilchem.net/login/login.htm', 'user_name': 'zhengsheng', 'password': '123456'}
+[2021-08-02  19:47:04.086] readConfig.py -> read_json line:19 [DEBUG] : json文件：{'base_url': 'https://mgt.oilchem.net/login/login.htm', 'user_name': 'zhengsheng', 'password': '123456'}
+[2021-08-02  19:47:13.030] homePage.py -> crm line:32 [DEBUG] : 从主页进入模块：用户管理系统
+[2021-08-02  19:47:13.030] homePage.py -> crm line:32 [DEBUG] : 从主页进入模块：用户管理系统
+[2021-08-02  19:47:13.030] homePage.py -> crm line:33 [DEBUG] : 222222222222
+[2021-08-02  19:47:13.030] homePage.py -> crm line:33 [DEBUG] : 222222222222
+[2021-08-02  20:01:21.713] basePage.py -> __init__ line:56 [DEBUG] : prefs<selenium.webdriver.chrome.options.Options object at 0x000001EC34A3AF10>
+[2021-08-02  20:01:22.767] basePage.py -> __init__ line:59 [DEBUG] : false driverFlag：True
+[2021-08-02  20:01:22.768] basePage.py -> __init__ line:60 [DEBUG] : 初始化driver完毕：<selenium.webdriver.chrome.webdriver.WebDriver (session="4a896a5071fd376af0af42b93e936640")>
+[2021-08-02  20:01:24.336] readConfig.py -> read_json line:22 [DEBUG] : json文件：{'base_url': 'https://mgt.oilchem.net/login/login.htm', 'user_name': 'zhengsheng', 'password': '123456'}
+[2021-08-02  20:01:37.276] homePage.py -> crm line:35 [DEBUG] : 从主页进入模块：用户管理系统
+[2021-08-02  20:01:37.276] homePage.py -> crm line:36 [DEBUG] : 222222222222
+[2021-08-02  20:03:29.591] basePage.py -> __init__ line:34 [INFO] : 执行BasePage构造方法
+[2021-08-02  20:03:29.591] basePage.py -> __init__ line:50 [DEBUG] : prefs<selenium.webdriver.chrome.options.Options object at 0x00000255FE7682B0>
+[2021-08-02  20:03:30.661] basePage.py -> __init__ line:53 [DEBUG] : false driverFlag：True
+[2021-08-02  20:03:30.661] basePage.py -> __init__ line:54 [DEBUG] : 初始化driver完毕：<selenium.webdriver.chrome.webdriver.WebDriver (session="c68fc911ed30902f93f83ea2c8e5b782")>
+[2021-08-02  20:03:32.254] readConfig.py -> read_json line:19 [DEBUG] : json文件：{'base_url': 'https://mgt.oilchem.net/login/login.htm', 'user_name': 'zhengsheng', 'password': '123456'}

@@ -9,6 +9,7 @@ from utils.readConfig import ReadConfig
 
 class LoginPage(BasePage):
     """登录页面"""
+
     def user_name_element(self):
         """用户名"""
         return self.find_element(By.ID, "name")
@@ -29,7 +30,7 @@ class LoginPage(BasePage):
             username = username_json
         else:
             username = username
-        if  password is None:
+        if password is None:
             password = password_json
         else:
             password = password
@@ -37,10 +38,14 @@ class LoginPage(BasePage):
         self.password_element().send_keys(password)
         self.login_element().click()
 
-
     def get_account(self):
         """获得默认的账号密码"""
         current_path = os.path.abspath(os.path.dirname(__file__))
         json_path = current_path + '/../../config/base_data.json'
         account = ReadConfig().read_json(json_path)
         return account['user_name'], account['password']
+
+
+if __name__ == '__main__':
+    lp = LoginPage()
+    lp.login()

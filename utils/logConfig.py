@@ -8,7 +8,7 @@ import os
 
 class Log:
 
-    def __init__(self):
+    def __init__(self, name):
         self.log_colors_config = {
             'DEBUG': 'white',  # cyan white
             'INFO': 'green',
@@ -17,7 +17,7 @@ class Log:
             'CRITICAL': 'bold_red',
         }
 
-        self.logger = logging.getLogger(__name__)
+        self.logger = logging.getLogger(name)
         self.logger.setLevel(logging.DEBUG)
 
         # 以时间命名log文件
